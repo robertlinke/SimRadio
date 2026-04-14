@@ -1,0 +1,16 @@
+# Configuration files with secrets
+server_config.json
+client_config.json
+
+# Environment / Python
+.env
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# External DLLs (SimConnect is often distributed separately or expected locally, though can be committed if license permits. We'll ignore it to keep repo clean)
+*.dll
